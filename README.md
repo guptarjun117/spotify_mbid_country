@@ -275,5 +275,7 @@ python -m spacy download en_core_web_sm
 - SQLite for persistent caching.
 - Concurrent processing: 8 threads by default.
 
-### Contribution and Future upgrades
+---
+
+## Contribution and Future Upgrades
 The entire pipeline can be made more efficient, and upgrades can be made to the translation and other components. Contributions are welcome.
