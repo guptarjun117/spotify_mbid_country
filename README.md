@@ -268,7 +268,7 @@ python -m spacy download en_core_web_sm
 - The current ListenBrainz credential should work as it. Otherwise get yours at: https://listenbrainz.readthedocs.io/en/latest/users/api/index.html.
 - The entire pipeline will output `countries.csv` and `artists_map_dashboard_dark.html`.
 - If `countries.csv` already exists in the directory, then it will skip eveything to just generate `artists_map_dashboard_dark.html`.
-- If you want the full pipline to run to, generate the csv and html map then simply delete the `countries.csv` and run the `main.py` again.
+- Currently the directory contains my `countries.csv`. If you want the full pipline to run to generate the `csv` and `html` then simply delete the `countries.csv` and run the `main.py` again.
 - The Spotify credentials are prone to timeouts. Use them wisely, avoiding repeated requests, as timeouts can last several hours (I was once timed out for ~8 hours).
 - The entire pipeline could take some time to run, depending on the number of artists in your playlist. With 645 unique artists, it took around ~30 minutes. For testing, start with a smaller playlist.
 - The pipeline attempts to use a translation library. Sometimes, an artist's name is in English on Spotify, such as **Aria** and **Tomioka Ai**, but it's stored in their country's language on the MusicBrainz database, Ария (RU) and 冨岡愛 (JP), respectively. However, in some cases, especially with CJK (Chinese-Japanese-Korean) languages, the translation may not work properly or as expected.
