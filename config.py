@@ -1,11 +1,11 @@
 import os
 
-PLAYLIST_URL = "https://open.spotify.com/playlist/5HsCtlOfnz73LDwOOO8Npn?si=MldmiuchSvqonnPiRDRPFg&pi=9X8rqJCgRZWDd"
+PLAYLIST_URL = ""           # Replace with your own Spotify Playlist
 
 # https://developer.spotify.com/documentation/web-api
 
-SPOTIFY_CLIENT_ID = "fb61282fafb94811976b38138df76cb4"      # Replace with your Spotify Client ID
-SPOTIFY_CLIENT_SECRET = "feeba104de8e44ea8f2fdd8246027e79"  # Replace with your Spotify Client Secret
+SPOTIFY_CLIENT_ID = ""      # Replace with your Spotify Client ID
+SPOTIFY_CLIENT_SECRET = ""  # Replace with your Spotify Client Secret
 LISTENBRAINZ_TOKEN = "67b66a3a-42d5-4888-a9a1-5ba39952c4c2"
 
 OUTPUT_CSV = "countries.csv"
