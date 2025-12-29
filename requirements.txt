@@ -1,0 +1,12 @@
+requests
+spotipy
+pandas
+folium
+numpy
+lingua-language-detector
+googletrans==4.0.0rc1
+nest-asyncio
+spacy
+pycountry
+country_converter
+geonamescache
